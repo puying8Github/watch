@@ -1,0 +1,59 @@
+
+.py_view{
+    width: 600px;
+    height: 200px;
+    background: url('../img/shadow.9.png') no-repeat;
+    background-size: 1000px 210px ;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+.py-cell{
+    width:400px;
+    height: 110px;
+    margin: 45px auto;
+    /*background-color: #fff;*/
+    overflow: hidden;
+}
+
+.py-cell span{
+    display: inline-block;
+    width:10%;
+    height: 100px;
+    margin-top: 5px;
+}
+.py_hour{
+    background-image:  url("../img/num_0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.py_minute{
+    background-image:  url("../img/num_0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pysecond{
+    background-image:  url("../img/num_0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.py-cell .py_colon{
+    width: 5%;
+    position: relative;
+    top:-20px;
+    left: -15px;
+    color:rgb(0,255,0);
+    font-size: 100px;
+    font-weight: bolder;
+}
+#Stopwatch{
+    color:rgb(0,255,0);
+    font-size: 80px;
+    text-align: right;
+}
+#Stopwatch span{
+    float: right;
+    background-image:  url("../img/num_0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
